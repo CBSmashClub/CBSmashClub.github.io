@@ -148,7 +148,7 @@ a:hover {
 }
 
 .navbar-custom .nav li a:hover {
-    color: rgba(255, 255, 255, .8)
+    color: #42DCA3
 }
 
 .navbar-custom .nav li.active {
@@ -160,11 +160,19 @@ a:hover {
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff
+    color: #42DCA3
 }
 
 ul.dropdown-menu li.active{
     background-color: rgba(0, 0, 0, .3)
+}
+
+.navbar-custom .nav li.dropdown a:hover {
+    color: #42DCA3
+}
+
+.navbar-custom .nav ul.dropdown-menu a:hover {
+    color: #42DCA3
 }
 
 @media (min-width:768px) {
